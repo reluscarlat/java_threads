@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad39fd21-42ca-460c-b6ba-e6e4987de500" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/resc/Friend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/resc/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/resc/Printer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/resc/Printer3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/resc/Printer4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/resc/Processor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/resc/Processor2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/resc/Processor3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/resc/ProducerConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/resc/ProducerConsumer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resc/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resc/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resc/Runner2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/resc/SingletonEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java_threads/com/resc/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_threads/com/resc/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_threads/com/resc/ProducerConsumer2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_threads/com/resc/ProducerConsumer2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/resc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/resc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/resc/ProducerConsumer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/resc/ProducerConsumer2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/resc/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="237" column="19" selection-start-line="237" selection-start-column="19" selection-end-line="237" selection-end-column="19" />
+            <state relative-caret-position="350">
+              <caret line="309" column="36" selection-start-line="309" selection-start-column="36" selection-end-line="309" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,44 +48,48 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/resc/ProducerConsumer2.java">
+        <entry file="file://$PROJECT_DIR$/src/com/resc/Connection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+            <state relative-caret-position="570">
+              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/resc/SingletonEnum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding>
+                <element signature="e#102#103#0" expanded="true" />
+                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/resc/Runner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="817">
+              <caret line="43" column="53" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1055#1056#0" expanded="true" />
+                <element signature="e#1118#1119#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/resc/Processor3.java">
+        <entry file="file://$PROJECT_DIR$/src/com/resc/Runner2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/resc/Processor2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/resc/Processor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-              <folding>
-                <element signature="e#100#101#0" expanded="true" />
-                <element signature="e#128#129#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="266">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -108,6 +108,7 @@
       <find>start()</find>
       <find>Thread(Runna</find>
       <find>run(</find>
+      <find>c</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -126,8 +127,12 @@
         <option value="$PROJECT_DIR$/src/com/resc/Processor2.java" />
         <option value="$PROJECT_DIR$/src/com/resc/Processor3.java" />
         <option value="$PROJECT_DIR$/src/com/resc/ProducerConsumer.java" />
-        <option value="$PROJECT_DIR$/src/com/resc/Main.java" />
         <option value="$PROJECT_DIR$/src/com/resc/ProducerConsumer2.java" />
+        <option value="$PROJECT_DIR$/src/com/resc/Runner2.java" />
+        <option value="$PROJECT_DIR$/src/com/resc/Runner.java" />
+        <option value="$PROJECT_DIR$/src/com/resc/SingletonEnum.java" />
+        <option value="$PROJECT_DIR$/src/com/resc/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/resc/Connection.java" />
       </list>
     </option>
   </component>
@@ -136,7 +141,7 @@
       <scroll-view-position x="0" y="0" />
     </layout>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -186,7 +191,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570632154251" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570703887890" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
@@ -231,18 +236,18 @@
       <workItem from="1569112894459" duration="2251000" />
       <workItem from="1569275966443" duration="12000" />
       <workItem from="1570403907865" duration="14531000" />
-      <workItem from="1570494138625" duration="19825000" />
+      <workItem from="1570494138625" duration="34189000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36619000" />
+    <option name="totallyTimeSpent" value="50983000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-8" y="-8" width="1552" height="880" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20939597" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20911528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -251,7 +256,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35335195" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3382353" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -417,23 +422,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/resc/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/resc/ProducerConsumer2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="237" column="19" selection-start-line="237" selection-start-column="19" selection-end-line="237" selection-end-column="19" />
+        <state relative-caret-position="257">
+          <caret line="38" column="41" lean-forward="true" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/resc/ProducerConsumer2.java">
+    <entry file="file://$PROJECT_DIR$/src/com/resc/Runner2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        <state relative-caret-position="266">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/resc/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="43" column="53" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#1118#1119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/resc/SingletonEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#102#103#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/resc/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="309" column="36" selection-start-line="309" selection-start-column="36" selection-end-line="309" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/resc/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
         </state>
       </provider>
     </entry>

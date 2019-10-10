@@ -1,10 +1,7 @@
 package com.resc;
 
 import java.util.Date;
-import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.*;
 
 public class Main {
 
@@ -188,6 +185,30 @@ public class Main {
 //        t2.start();
 
 
+
+
+        // Wait & Notify 2
+
+//        Runner2 runner2 = new Runner2();
+//        Thread t1 = new Thread(()->{
+//            try {
+//                runner2.firstThread();
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
+//        });
+//        Thread t2 = new Thread(()->{
+//            try {
+//                runner2.secondThread();
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
+//        });
+//        t1.start();
+//        t2.start();
+
+
+
         // Producer & Consumer
 
 //        int numberOfThreads = 15;
@@ -215,28 +236,83 @@ public class Main {
 
 
         // Producer & Consumer 2
+//
+//        ProducerConsumer2 pc2 = new ProducerConsumer2();
+//
+//        Thread t1 = new Thread(() -> {
+//            try {
+//                pc2.produce();
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
+//        });
+//
+//        Thread t2 = new Thread(() -> {
+//            try {
+//                pc2.consume();
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
+//        });
+//
+//        t1.start();
+//        t2.start();
+//
 
-        ProducerConsumer2 pc2 = new ProducerConsumer2();
 
-        Thread t1 = new Thread(() -> {
-            try {
-                pc2.produce();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        });
+//        //Re-entrant Lock
+//
+//        Runner runner = new Runner();
+//        Thread t1 = new Thread(() -> {
+//            try {
+//                runner.firstThread();
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
+//        });
+//        Thread t2 = new Thread(() -> {
+//            try {
+//                runner.secondThread();
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
+//        });
+//
+//        t1.start();
+//        t2.start();
+//        try {
+//            t1.join();
+//            t2.join();
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+//        runner.finished();
+//
+//
+//
 
-        Thread t2 = new Thread(() -> {
-            try {
-                pc2.consume();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        });
+//      SEMAPHORE
+        ExecutorService executorService = Executors.newCachedThreadPool();
+        for(int i = 0; i < 200; i++) {
+            Thread t = new Thread(()->{
+               Connection.getConnection().connect();
+            });
+            executorService.submit(t);
+        }
 
-        t1.start();
-        t2.start();
+        executorService.shutdown();
 
+        try {
+            executorService.awaitTermination(1, TimeUnit.DAYS);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println("Finished");
+
+//        SingletonEnum singletonEnum  = SingletonEnum.INSTANCE;
+//        System.out.println(singletonEnum.getValue());
+//        singletonEnum.setValue(1);
+//        System.out.println(singletonEnum.getValue());
 
     }
 }

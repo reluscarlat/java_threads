@@ -12,7 +12,7 @@ public class ProducerConsumer2 {
         int value = 0;
         while(true) {
             synchronized (lock) {
-                while(LIMIT == list.size()) {
+                if(LIMIT == list.size()) {
                     lock.wait();
                 }
                 list.add(value++);
@@ -28,7 +28,7 @@ public class ProducerConsumer2 {
         Random rand = new Random();
         while (true) {
             synchronized (lock) {
-                while ( 0 == list.size()) {
+                if ( 0 == list.size()) {
                     lock.wait();
                 }
                 int value = list.removeFirst();
