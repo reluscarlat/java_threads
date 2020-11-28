@@ -29,6 +29,6 @@ public class Printer4 {
             e.printStackTrace();
         }
         System.out.println(counter);
-    }
 
+    }
 }
